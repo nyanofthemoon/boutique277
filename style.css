@@ -189,7 +189,11 @@ section h1, section h2, section h3, section h4 {
 }
 
 header nav {
-  align-self: flex-end;
+  align-self: baseline;
+}
+
+header img {
+  margin-right: 25px;
 }
 
 header nav a {
@@ -199,4 +203,6 @@ header nav a {
 
 header h1 {
   margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 5em;
 }
