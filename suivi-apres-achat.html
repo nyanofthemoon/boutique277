@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en-US" class="bits-theme-light">
+  <head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width">
+    <title>Boutique 277 - Suivi d'Achat</title>
+    <link rel="stylesheet" href="style.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TN4Y96REX4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-TN4Y96REX4');
+    </script>
+  </head>
+  <body>
+    
+    <header class="masonry-wrapper">
+      <img src="images/logo.png" height="150" width="150">
+      <div><h1>Boutique 277</h1>
+        <h3><a href="bijoux.html">bijoux</a> | <a href="chandelles.html">chandelles</a> | <a href="savons.html">savons</a> | <a href="pour-le-bain.html">pour le bain</a> | <a href="pour-la-douche.html">pour la douche</a> | <a href="pour-femmes.html">pour femmes</a> | <a href="pour-hommes.html">pour hommes</a> | <a href="cuir.html">en cuir</a> | <a href="decor.html">décor</a></h3>
+      </div>
+      <nav>
+        <a href="/index.html">Accueil</a>
+        <a href="/index.html#heures">Heures</a>
+        <a href="/index.html#directions">Directions</a>
+        <a href="mailto:laboutique277@gmail.com">Contactez-Nous</a>
+      </nav>
+    </header>
+
+    <section class="masonry-wrapper">
+      <div>
+        <h2>Suivi</h2>
+        <h3>Merci d'avoir magasiné à la Boutique 277!</h3>
+      </div>
+    </section>
+    
+    <footer class="masonry-wrapper">
+      © 2021&nbsp;<a href="/">Boutique 277</a>
+    </footer>
+
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "101133762258305");
+      chatbox.setAttribute("attribution", "biz_inbox");
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/fr_FR/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+  </body>
+</html>
