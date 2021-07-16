@@ -206,3 +206,16 @@ header h1 {
   margin-top: 0px;
   font-size: 5em;
 }
+
+.featured {
+ max-width: 91vw;
+}
+
+.featured img {
+  max-height: 450px;
+  padding-right: 10px;
+ }
+
+.slick-next:before, .slick-prev:before {
+  color: #000000 !important;
+}
