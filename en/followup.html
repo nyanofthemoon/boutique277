@@ -33,8 +33,31 @@
     </div>
 
     <footer class="masonry-wrapper">
-      © 2021&nbsp;<a href="/en/index.html">Boutique 277</a>
+      © 2021&nbsp;<a href="/en/index.html">Boutique 277</a> | <a href="../ingredients.html">Our Ingredients</a>
     </footer>
+
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "101133762258305");
+      chatbox.setAttribute("attribution", "biz_inbox");
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/fr_FR/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 
   </body>
 </html>
